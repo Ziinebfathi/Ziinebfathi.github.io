@@ -1,0 +1,140 @@
+body{
+    margin: 10px;
+    font-family: sans-serif;
+    /*background-color:rgba(70, 73, 38, 0.849);*/
+    background-image: url("../image/photo-1542831371-29b0f74f9713.jpg");
+    background-size:contain;
+}
+p,li,ol{
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-align: justify;
+}
+fieldset{
+    margin: auto;
+}
+.border-class{
+    border: 3px solid rosybrown;
+    margin: 40px 0px;
+}
+   
+.grade-h1{
+    display: flex;
+    justify-content: center;
+}
+.btn-grade{
+    border-radius: 5px;
+    background-color: salmon;
+}
+ol{
+    list-style-type: decimal;
+}
+select{
+ width: 150px;
+ font-family: sans-serif;
+}
+ input{
+    font-family: sans-serif;
+}
+label{
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+h1,h3{
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+hr{
+    width: 100%;
+    color: wheat;
+}
+.image-container{
+    width: 250px;
+    border-radius: 150px;
+    float: left;
+    align-content: space-between;
+    margin-right: 10px;
+    padding: 40px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding: 38px;
+    background:darksalmon;
+}
+
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+   color:whitesmoke;
+   text-decoration: none;
+   transition: color 0.5s;
+}
+.nav-link-wrapper :hover{
+    border-bottom: 1px solid black;  
+}
+.nav-link-wrapper a :hover{
+    color: black;  
+}
+.footer{
+    background: darksalmon;
+    height: 150px;
+}
+.heading-about{
+    color: rgb(131, 151, 218);
+}
+.img-wrapper-big{
+    height: 400px;
+}
+.img-wrapper{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    padding: 38px;
+    vertical-align: bottom;
+}
+
+.left-img{
+    width: 200px;
+    height: 250px;
+}
+.right-img{
+    width: 350px;
+    height: 250px;
+}
+.link-identifer{
+    color: red;
+}
+.p-italic-id{
+    font-style: italic;
+}
+
+
+
+
+.para-img-wrapper{
+   display: contents;
+}
+strong{
+    color: yellow;
+}

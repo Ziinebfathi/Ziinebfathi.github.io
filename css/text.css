@@ -1,0 +1,36 @@
+body{
+    background-color: darkolivegreen;
+    color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+#body-wrapper{
+    display: block;
+    margin: auto;
+    max-width: fit-content;
+}
+h1, legend{
+    color: darksalmon;
+}
+button{
+    background-color: darksalmon;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textclass{
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: fit-content;
+}
+fieldset{
+    background-image: url("../image/images/fieldbg.png");
+    align-content: center;
+    max-width: fit-content;
+}
+legend{
+    color: lightcoral;
+    font-weight: bold;
+    font-size: 14pt;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+}
