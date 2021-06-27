@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCIImation</title>
+    
+</head>
+<body>
+    <h1 id="heading"> CSE 190 M ASCII Animation Viewer</h1>
+   
+  
+    <div class="text-area-wrapper">
+        <textarea name="text-box" id="txtShowAnimation" cols="80" rows="20"></textarea>
+    </div>
+    <div class="option-wrapper">
+    <fieldset class="fieldset-boxing">
+        <legend>paly controls:</legend>
+        <button id="start-btn">start</button>
+        <button id="stop-btn">stop</button>
+    </fieldset>
+
+    <fieldset class="fieldset-boxing">
+            <legend>Animation:</legend>
+            <select name="select" id="select-Animation">
+            <option value="BLANK" >Blank</option>
+            <option value="EXERCISE">EXERCISE</option>
+            <option value="JUGGLER">JUGGLER</option>
+            <option value="BIKE">BIKE</option>
+            <option value="DIVE">DIVE</option>
+
+        </select>
+    </fieldset>
+
+    <fieldset class="fieldset-boxing">
+        <legend>size:</legend>
+            <select name="size" id="select-size">
+            <option value="7pt" >Tiny</option>
+            <option value="10pt">Small</option>
+            <option value="12pt">Medium</option>
+            <option value="16pt">Large</option>
+            <option value="24pt">Extra Large</option>
+            <option value="32pt">XXL</option>
+        </select>
+    </fieldset>
+    <fieldset class="fieldset-boxing">
+        <legend>speed:</legend>
+        <input type="radio" name="chk-speed" value="chk-speed" id="chk-speed" > Turbo
+    </fieldset>
+</div>
+</body>
+</html>
