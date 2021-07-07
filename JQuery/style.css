@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#main-container{
+    height: 0%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+#circle-container{
+    position: relative;
+}
+.circle{
+    position: absolute;
+}
+#input-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    z-index: 100;
+    border-top: solid 1px black;
+    background-color: rgb(180, 128, 50);
+}
+input{
+    font-size: 18px;
+    border-radius: 4px;
+}
+button{
+    background-color: rgb(110, 93, 35);
+    color: rgba(128, 44, 44, 0.658);
+    border: none;
+    border-radius: 5px;
+    padding: 2px 15px;
+}
