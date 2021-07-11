@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 rl.question("What is your name ? ", function(name) {
     rl.question("how old are you ? ", function(age) {
         if(age < 16){
-            console.log('“You’re notallowed to drive in Iowa')
+            console.log('“You’re not allowed to drive in Iowa')
           }else{
             console.log('you are allowed to get a drivers license in iowa ')
           }
