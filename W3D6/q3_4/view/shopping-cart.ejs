@@ -1,0 +1,20 @@
+ <link href="/css/shopping-cart.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div id="list-container">
+
+            <% for(const product of products){%>
+                <div id="container">
+                    <label>Name:</label>
+                    <span><%=product.name%></span>
+                    <label>Description:</label>
+                    <span><%=product.description%></span>
+                    <label>Price:</label>
+                    <span><%=product.price%></span>
+                    <label>Id:</label>
+                    <span><%=product.id%></span>
+                </div>
+                <%}%>
+
+        </div>

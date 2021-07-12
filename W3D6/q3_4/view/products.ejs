@@ -1,0 +1,31 @@
+<link href="/css/product.css" rel="stylesheet" />
+<title>Product List</title>
+</head>
+
+<body>
+
+    <form method="POST" action="/addToCart">
+        <input type="hidden" name="id" value=< %=product.id%> />
+        <div id="container">
+            <label>Name:</label>
+            <span>
+            <%=product.name%>
+        </span>
+            <label>Description:</label>
+            <span>
+            <%=product.description%>
+        </span>
+
+            <label>Price:</label>
+            <span>
+            <%=product.price%>
+        </span>
+
+            <label>Id:</label>
+            <span>
+            <%=product.id%>
+        </span>
+
+            <input type="done" value="Add to cart" />
+        </div>
+    </form>
